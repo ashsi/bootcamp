@@ -1,0 +1,52 @@
+100% of marks achieved in code review.
+
+-----
+Alg 1
+-----
+
+# Hello World task, ask described in the instructions.
+
+request input from the user "Input your name"
+store input in a string variable called first_name
+print first_name
+print "Hello, World"
+
+-----
+Alg 2
+-----
+
+# Age verification.
+
+request input from the user "Enter your age"
+store input in an integer variable called age
+if age > 18
+	print "You're old enough"
+else if age > 15
+	print "Almost there"
+else
+	print "You're just too young"
+  
+-------------
+Optional Task
+-------------
+
+# Print Fibonacci series up until nth number.
+
+request input from user "Enter a number"
+store user input in integer variable called n
+
+call recursive function fib with input n
+do nothing with the output of this function call, as the function has printed the sequence as it was called
+
+define function fib:
+	if n is equal to 0
+		print 0
+		return 0
+	if n is equal to 1
+		print 1
+		return 1
+	if n > 1
+		set variable fib_n to the result of calling function fib on n-2 added to the result of fib on n-1.
+		// maintain fib n = fib n-2 + fib n-1
+		print fib_n
+		return fib_n
