@@ -1,0 +1,87 @@
+# 100% of marks received.
+
+--------
+Task One
+--------
+
+# Ask user to input numbers until they input 0 to stop the loop, then print the largest number the user entered.
+
+declare variable n
+loop (while user entered number != 0)
+	ask user to enter a positive number
+		if user's number is not zero
+			set n to maximum of existing n and user entered number
+		if user's number is zero
+			break loop
+output n which contains the largest number inputted so far
+
+--------
+Task Two
+--------
+
+# Read input integers and return their arithmetic mean
+
+define variable n = 0, which keeps track of the number of integers read so far
+define variable sum = 0 which keeps track of the sum of the integers read so far
+for each integer read 
+	increment n and add the integer to sum
+if n > 0
+	return float(sum)/float(n)
+
+
+----------
+Task Three
+----------
+
+# Take a grocery list as input and return an alphabetically ordered list of the items left to buy.
+
+input grocery list
+declare empty list of items left to buy
+for each item in grocery list
+	if item is not bought
+		add item to left to buy list
+return sorted left to buy list
+
+---------
+Task Four
+---------
+
+# Convert flowchart of algorithm to pseudocode.
+
+Read X, Y from inputs
+set S = X + Y
+set A = S / 2
+set P = X * Y
+print S, A, P
+
+-------------
+Optional Task
+-------------
+
+# Ask user for 4 numbers, add each to a list, print the sorted list.
+
+Create a list of size 4
+
+Ask user to input first number, save to list[0]
+Ask user to input second number, save to list[1]
+Ask user to input third number, save to list[2]
+Ask user to input fourth number, save to list[3]
+
+Sort list:
+	if list[0] > list[1] 
+		switch list[0] and list[1] // first pair is sorted
+	if list[2] > list[3]
+		switch list[2] and list[3] // first and second pair are sorted pairs
+	if list[0] > list[2]
+		switch list[0] and list[2]
+		switch list[1] and list[2]
+	else if list[1] > list[2]
+		switch list[1] and list[2] // first three elements are sorted
+	if list[1] > list[3]
+		switch list[1] and list[3]
+		switch list[2] and list[3]
+	else if list[2] > list[3]
+		switch list[2] and list[3] // all four elements are sorted
+
+
+Print list
