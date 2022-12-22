@@ -16,7 +16,7 @@ print(f"num1: {num1}, num2: {num2}")
 
 
 # Alternative solution without declaring a temporary variable. 
-# Change is in line 26, replacing lines 9-11.
+# Change is in line 27, replacing lines 10-12.
 
 num1 = input("Enter a number: ")
 num2 = input("Enter another number: ")
