@@ -1,6 +1,4 @@
 # bootcamp
-Coding tasks from the HyperionDev bootcamp: backend software engineering.
-
-Funded by the Department of Education.
+Backend software engineering coding tasks.
 
 I am looking to take advice in writing better professional code.
